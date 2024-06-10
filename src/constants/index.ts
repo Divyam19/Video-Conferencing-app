@@ -6,17 +6,17 @@ export const sidebarLinks=[
     },
     {
         label:'Upcoming',
-        imgUrl:'/icons/Upcoming.svg',
+        imgUrl:'/icons/upcoming.svg',
         route:'/upcoming',
     },
     {
         label:'Previous',
-        imgUrl:'/icons/Previous.svg',
+        imgUrl:'/icons/previous.svg',
         route:'/previous',
     },
     {
         label:'Recordings',
-        imgUrl:'/icons/Recordings.svg',
+        imgUrl:'/icons/recordings.svg',
         route:'/recordings',
     },
     {
