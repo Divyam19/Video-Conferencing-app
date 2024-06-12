@@ -2,11 +2,11 @@
 import Image from 'next/image'
 import React, { useState } from 'react'
 import HomeCard from './HomeCard'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 
 const MeetingTypeList = () => {
     //there is an error in useRouter
-    const router=useRouter;
+    const router=useRouter();
     const [meetingState, setMeetingState] = useState<'isScheduleMeeting'|'isJoiningMeeting'|'isInstantMeeting'|'undefined'>()
   return (
     <section className='grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-4'>
