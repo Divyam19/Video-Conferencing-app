@@ -45,6 +45,6 @@ const MeetingSetup = ({setIsSetupComplete}:{setIsSetupComplete:(value:boolean)=>
       </Button>
     </div>
   )
-}
+}          
 
 export default MeetingSetup
